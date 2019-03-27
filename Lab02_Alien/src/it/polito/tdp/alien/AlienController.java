@@ -52,9 +52,8 @@ public class AlienController {
     		String[] parola= input.split(" ");
     		
     		if(parola.length==1) {
-    			dizionario.translateWord(parola[0]);
     			txtResult.clear();
-    			txtResult.appendText("Il significato della parola " + parola[0] + " è " + dizionario.translateWord(parola[0])	);
+    			txtResult.appendText("Il significato della parola " + parola[0] + " è: " + dizionario.translateWord(parola[0]));
         		return;
     		}else
     			txtResult.clear();

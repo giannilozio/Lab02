@@ -30,7 +30,7 @@ public class Dictionary {
 		}
 	}
 	
-	public List<String> translateWord(String alienWord ) {	
+	public String translateWord(String alienWord ) {	
 		for(WordEnhanced p : d) {
 			if(p.getAlienWord().equals(alienWord)) {
 			return p.getTranslations();

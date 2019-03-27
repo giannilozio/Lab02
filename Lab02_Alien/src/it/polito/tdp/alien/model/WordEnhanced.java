@@ -50,9 +50,12 @@ public class WordEnhanced {
 	}
 
 
-	public List<String> getTranslations() {
-		
-		return translations;
+	public String getTranslations() {
+		String result="";
+		for(String g : translations) {
+			result+= g+" ";
+		}
+		return result;
 	}
 
 
