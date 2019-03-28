@@ -26,6 +26,7 @@ public class Dictionary {
 		if(cacca==0) {
 			WordEnhanced ptemp= new WordEnhanced (alienWord, translation);
 			d.add(ptemp);
+			ptemp.addTraduzione(translation);
 			
 		}
 	}
